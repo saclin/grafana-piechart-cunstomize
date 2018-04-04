@@ -1,0 +1,36 @@
+{
+  "type": "panel",
+  "name": "Pie Chart Customize",
+  "id": "piechart-customize",
+
+  "info": {
+    "description": "Customize Pie chart panel for grafana base on Grafana Labs's Pie Chart -- by Creator Lin",
+    "author": {
+      "name": "Creator Lin",
+      "url": "http://674126862@qq.com"
+    },
+    "keywords": ["piechart", "panel"],
+    "logos": {
+      "small": "src/img/CreatorLin_66x66.png",
+      "large": "src/img/CreatorLin_100x100.png"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/saclin/Customize-Pie-chart-panel-for-grafana.git"},
+      {"name": "Blog Post", "url": "https://blog.raintank.io/friends-dont-let-friends-abuse-pie-charts/"},
+    ],
+    "screenshots": [
+      {"name": "Donut!", "path": "src/img/piechart-donut.png"},
+      {"name": "Legend on the graph", "path": "src/img/piechart-legend-on-graph.png"},
+      {"name": "Legend to the right", "path": "src/img/piechart-legend-rhs.png"},
+      {"name": "Legend underneath", "path": "src/img/piechart-legend-under.png"},
+      {"name": "Piechart options", "path": "src/img/piechart-options.png"}
+    ],
+    "version": "1.0.0",
+    "updated": "2018-04-02"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "4.6",
+    "plugins": [ ]
+  }
+}
